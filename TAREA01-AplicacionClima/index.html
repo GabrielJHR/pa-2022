@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Aplicacion del clima</title>
+</head>
+
+<body>
+    <header class="container py-5">
+        <h1>Aplicacion de clima</h1>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2 class="my-4">Clima concepcion del uruguay</h2>
+            <div class="card temp-actual">
+                <div class="card-body text-center">
+                    <div class="temp-actual-temp text-center mb-4">
+                        <p><strong>Temperatura Actual</strong></p>
+                        <h4 id="temperatura"></h4>
+                    </div>
+                    <p><strong>Minima: </strong><span id="minTemp"></span> °C</p>
+                    <p><strong>Maxima: </strong><span id="maxTemp"></span> °C</p>
+                    <p><strong>Humedad: </strong><span id="humedad"></span>%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="openweather.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
